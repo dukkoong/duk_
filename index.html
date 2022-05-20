@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/button.css">
+    <title>CI - To Do 😁</title>
+</head>
+
+<body>
+    <main>
+        <div class="clock-container">
+            <h3 class="js-clock clock">00:00</h3>
+        </div>
+        <section class="form-section">
+            <form class="js-form" action="">
+                <input class="form__input" type="text" placeholder="What is your name?">
+            </form>
+        </section>
+        <section class="todo-section">
+            <form class="js-todo" action="">
+                <input class="todo__input" type="text" placeholder="Write a to do📝">
+            </form>
+            <ul class="js-todo-list"></ul>
+        </section>
+		
+		<div>
+			<button class="button button2" onclick="hanway()">Hanway</button>
+			<button class="button button2" onclick="TIMS()">TIMS</button>
+			<button class="button button2" onclick="IISM()">IISM</button>
+			<br><br>
+			<button class="button button2" onclick="MEMR()">M-EMR</button>
+			<input type="button" onclick="hanway()" value="TEST1" id = 'button2'>
+			<input type="button" onclick="hanway()" value="TEST1" id = 'button2'>
+			<!--
+			<br><br>
+			<input type="button" onclick="hanway()" value="TEST1" id = 'button2'>
+			<input type="button" onclick="hanway()" value="TEST1" id = 'button2'>
+			<input type="button" onclick="hanway()" value="TEST1" id = 'button2'> -->
+			<br><br>
+			<button class="button button2" onclick="HSP()">HSP</button>
+			<button class="button button1" onclick="LMS()">LMS</button>
+			<button class="button button3" onclick="hanway()">Red</button>
+			<br><br>
+		</div>
+		<!--<span class="js-weather"></span>-->
+        <h5>made by. Duk_</h5>
+		
+    </main>
+	
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/toDo.js"></script>
+    <!--<script src="js/weather.js"></script> 폐쇄망으로 우선 주석 -->
+	<script src="js/button.js"></script>
+</body>
+
+</html>
